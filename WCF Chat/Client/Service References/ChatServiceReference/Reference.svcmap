@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e1edb214-e788-4bbd-959a-42a324da3027" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8084/Chat" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Chat.xsd" MetadataType="Schema" ID="56f40df8-1f20-45a6-8392-8e8e65bddf87" SourceId="1" SourceUrl="http://localhost:8084/Chat?xsd=xsd0" />
+    <MetadataFile FileName="Chat.wsdl" MetadataType="Wsdl" ID="1cf7e125-4a21-4134-bf8d-780ae5b01842" SourceId="1" SourceUrl="http://localhost:8084/Chat?wsdl" />
+    <MetadataFile FileName="Chat1.xsd" MetadataType="Schema" ID="6e23fe07-a780-4645-aa2f-0661968b1a8a" SourceId="1" SourceUrl="http://localhost:8084/Chat?xsd=xsd2" />
+    <MetadataFile FileName="Chat2.xsd" MetadataType="Schema" ID="20c9ddc1-15e2-4705-822d-097b512b9ae6" SourceId="1" SourceUrl="http://localhost:8084/Chat?xsd=xsd1" />
+    <MetadataFile FileName="Chat.disco" MetadataType="Disco" ID="e6511741-9ff8-4b9d-8b64-2ea2d13659c1" SourceId="1" SourceUrl="http://localhost:8084/Chat?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
